@@ -1,6 +1,10 @@
 // JavaScript File
 
-//to ponizej zapobiega sygnalizowaniu bledu ze stosowaniem $ w Cloud9
+// FUNKCJA JQUERY
+
+//plik: /JQ_L01_05_funkcjaJQuery/script.js
+
+//zpis ponizej zapobiega sygnalizowaniu bledu ze stosowaniem $ w Cloud9
 /* global $ */
 
 /*
