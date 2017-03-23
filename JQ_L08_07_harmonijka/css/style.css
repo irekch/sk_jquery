@@ -176,19 +176,6 @@ body {
   background: #aaa;
 }
 
-#main ul {
-  margin: 0 0 0 14px;
-  padding: 0;
-  list-style: square;
-}
-
-#main li {
-  font-size: 1.0em;
-  line-height: 1.5em;
-  margin: 0;
-  padding: 6px 0;
-}
-
 br.clearit {
   clear: both;
 }
@@ -235,22 +222,31 @@ input.button {
   padding: 3px 4px;
 }
 
-#panel {
-	float: left;
+#harm {
 	background: #FFF;
+	padding: 0px;
 }
 
-#wysun {
-	float: right;
+#harm h2 {
+	display: block;
+	color: #71d4e7;
+	padding: 10px 5px;
+	font-weight: lighter;
+	cursor: pointer;
+	background: #03284d;
 }
 
-#slider {
-	position: absolute;
-/*	left: 0px; */    /* w tej pozycji okieno jest widoczne */
-	left: -292px;  
-	/* okienko jest presuniete w lewo o szerokosc okienka "width=292" */
-	top: 350px;
+#harm p {
+	padding: 5px;
+	color: #454545;
+/*	display: none; */
 }
+
+
+
+
+
+
 
 
 

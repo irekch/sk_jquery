@@ -2,7 +2,7 @@
 body {
   font-family: arial,verdana,tahoma,helvetica,sans-serif;
   font-size: 85%;
-  color: #777;
+  color: #333;
   margin: 0;
   padding: 0;
   background: #e6e6e6;
@@ -153,13 +153,11 @@ body {
 }
 
 #main p a, #main li a {
-  color: #111;
-  text-decoration: underline;
+  
 }
 
 #main p a:hover, #main li a:hover {
-  color: #999;
-  text-decoration: underline;
+  
 }
 
 #main p a.btn {
@@ -174,19 +172,6 @@ body {
   text-decoration: none;
   padding: 7px 9px;
   background: #aaa;
-}
-
-#main ul {
-  margin: 0 0 0 14px;
-  padding: 0;
-  list-style: square;
-}
-
-#main li {
-  font-size: 1.0em;
-  line-height: 1.5em;
-  margin: 0;
-  padding: 6px 0;
 }
 
 br.clearit {
@@ -235,22 +220,53 @@ input.button {
   padding: 3px 4px;
 }
 
-#panel {
-	float: left;
-	background: #FFF;
+.nawigacja {
+	margin-top: 20px;
 }
 
-#wysun {
-	float: right;
+.nawigacja li {
+	display: inline;
+	list-style: none;
+	background: #062c4b;
+	padding: 10px 15px;
 }
 
-#slider {
-	position: absolute;
-/*	left: 0px; */    /* w tej pozycji okieno jest widoczne */
-	left: -292px;  
-	/* okienko jest presuniete w lewo o szerokosc okienka "width=292" */
-	top: 350px;
+.nawigacja li a {
+	text-decoration: none;
+	color: #1ed1d8;
+	outline: none;
 }
+
+.nawigacja li a:hover {
+	text-decoration: none;
+	color: #1ed1d8;
+}
+
+#obramowanie {
+	padding: 10px;
+	margin-top: 25px;
+}
+
+#spistresci ul {
+	font-size: 18px;
+}
+
+.nawigacja .aktywna {
+	color: #FFF;
+}
+
+.nawigacja .aktywna:hover {
+	color: #FFF;
+}
+
+#spistresci, #fragment {
+	display: none;
+}
+
+
+
+
+
 
 
 

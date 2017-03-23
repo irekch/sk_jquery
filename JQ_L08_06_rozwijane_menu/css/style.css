@@ -176,19 +176,6 @@ body {
   background: #aaa;
 }
 
-#main ul {
-  margin: 0 0 0 14px;
-  padding: 0;
-  list-style: square;
-}
-
-#main li {
-  font-size: 1.0em;
-  line-height: 1.5em;
-  margin: 0;
-  padding: 6px 0;
-}
-
 br.clearit {
   clear: both;
 }
@@ -235,22 +222,64 @@ input.button {
   padding: 3px 4px;
 }
 
-#panel {
+ul#menu {
+	list-style: none outside none;
+	background: #062c4b;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul#menu li {
 	float: left;
-	background: #FFF;
+	width: 150px;
+	text-align: left;
+	position: relative;
+	height: 40px;
 }
 
-#wysun {
-	float: right;
+ul#menu li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px 0px 5px;
 }
 
-#slider {
+ul#menu li a:hover {
+	text-decoration: none;
+	color: #FFF; 
+}
+
+ul#menu li ul.podmenu {
+	list-style: none outside none;
+	width: 150px;
+	background: #062c4b;
 	position: absolute;
-/*	left: 0px; */    /* w tej pozycji okieno jest widoczne */
-	left: -292px;  
-	/* okienko jest presuniete w lewo o szerokosc okienka "width=292" */
-	top: 350px;
+	top: 40px;
+	margin: 0px;
+	padding: 0px;
+	display: none;        /* ukrywamy listy podmenu */
 }
+
+ul#menu li ul.podmenu li {
+	height: 40px;
+	text-align: left;
+}
+
+ul#menu li ul.podmenu li a {
+	background: none;
+	color: #1ed1d8;
+	text-decoration: none;
+	border: none;
+	padding: 10px 0px 10px 5px;
+}
+
+ul#menu li ul.podmenu li a:hover {
+	background: #0f4765;
+	color: #FFF;
+	border: none;
+}
+
 
 
 
