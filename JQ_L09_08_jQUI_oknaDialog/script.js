@@ -29,10 +29,14 @@ $(document).ready(function(){
     // Efekt: okienko otwierane wjezdża z lewej strony
     // przy zamykanie okienka ono eksploduje
     
-    // dodajemy pozycjonowanie okienka UWAGA: nie działa w Cloud9
+    // dodajemy pozycjonowanie okienka
     $("#promocja").dialog({title:"Promocja", show:"slide", hide:"explode", 
-       position: [600, 600], modal: true});
+       position: {my: 'left top', at: 'left+200 top+300'}, modal: true});
     // Efekt modal - okienko jasne, reszta przyciemniona
+
+    // UWAGA: pozycjonowanie position: [300, 200] działało w starym jQueryUI
+    //        teraz działa taka forma jak powyzej
+       
 });
 
 
